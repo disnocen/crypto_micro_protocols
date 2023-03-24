@@ -1,0 +1,702 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/disnocen/pr/adaptor_sig_btc/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AbstractSet	/usr/local/lib/python3.9/typing.py	/^AbstractSet = _alias(collections.abc.Set, 1, name='AbstractSet')$/;"	v
+Adaptor	main.py	/^Adaptor = Tuple[int, Point, Point]$/;"	v
+Annotated	/usr/local/lib/python3.9/typing.py	/^class Annotated:$/;"	c
+Any	/usr/local/lib/python3.9/typing.py	/^def Any(self, parameters):$/;"	f
+AnyStr	/usr/local/lib/python3.9/typing.py	/^AnyStr = TypeVar('AnyStr', bytes, str)$/;"	v
+ArgInfo	/usr/local/lib/python3.9/inspect.py	/^ArgInfo = namedtuple('ArgInfo', 'args varargs keywords locals')$/;"	v
+ArgSpec	/usr/local/lib/python3.9/inspect.py	/^ArgSpec = namedtuple('ArgSpec', 'args varargs keywords defaults')$/;"	v
+Arguments	/usr/local/lib/python3.9/inspect.py	/^Arguments = namedtuple('Arguments', 'args, varargs, varkw')$/;"	v
+AsyncContextManager	/usr/local/lib/python3.9/typing.py	/^AsyncContextManager = _alias(contextlib.AbstractAsyncContextManager, 1, name='AsyncContextManage/;"	v
+AsyncGenerator	/usr/local/lib/python3.9/typing.py	/^AsyncGenerator = _alias(collections.abc.AsyncGenerator, 2)$/;"	v
+AsyncIterable	/usr/local/lib/python3.9/typing.py	/^AsyncIterable = _alias(collections.abc.AsyncIterable, 1)$/;"	v
+AsyncIterator	/usr/local/lib/python3.9/typing.py	/^AsyncIterator = _alias(collections.abc.AsyncIterator, 1)$/;"	v
+Attribute	/usr/local/lib/python3.9/inspect.py	/^Attribute = namedtuple('Attribute', 'name kind defining_class object')$/;"	v
+Awaitable	/usr/local/lib/python3.9/typing.py	/^Awaitable = _alias(collections.abc.Awaitable, 1)$/;"	v
+BinaryIO	/usr/local/lib/python3.9/typing.py	/^    BinaryIO = BinaryIO$/;"	v	class:io
+BinaryIO	/usr/local/lib/python3.9/typing.py	/^class BinaryIO(IO[bytes]):$/;"	c
+BlockFinder	/usr/local/lib/python3.9/inspect.py	/^class BlockFinder:$/;"	c
+BoundArguments	/usr/local/lib/python3.9/inspect.py	/^class BoundArguments:$/;"	c
+ByteString	/usr/local/lib/python3.9/typing.py	/^ByteString = _alias(collections.abc.ByteString, 0)  # Not generic$/;"	v
+CORO_CLOSED	/usr/local/lib/python3.9/inspect.py	/^CORO_CLOSED = 'CORO_CLOSED'$/;"	v
+CORO_CREATED	/usr/local/lib/python3.9/inspect.py	/^CORO_CREATED = 'CORO_CREATED'$/;"	v
+CORO_RUNNING	/usr/local/lib/python3.9/inspect.py	/^CORO_RUNNING = 'CORO_RUNNING'$/;"	v
+CORO_SUSPENDED	/usr/local/lib/python3.9/inspect.py	/^CORO_SUSPENDED = 'CORO_SUSPENDED'$/;"	v
+CT_co	/usr/local/lib/python3.9/typing.py	/^CT_co = TypeVar('CT_co', covariant=True, bound=type)$/;"	v
+Callable	/usr/local/lib/python3.9/typing.py	/^Callable = _CallableType(collections.abc.Callable, 2)$/;"	v
+ChainMap	/usr/local/lib/python3.9/typing.py	/^ChainMap = _alias(collections.ChainMap, 2)$/;"	v
+ClassFoundException	/usr/local/lib/python3.9/inspect.py	/^class ClassFoundException(Exception):$/;"	c
+ClassVar	/usr/local/lib/python3.9/typing.py	/^def ClassVar(self, parameters):$/;"	f
+ClosureVars	/usr/local/lib/python3.9/inspect.py	/^ClosureVars = namedtuple('ClosureVars', 'nonlocals globals builtins unbound')$/;"	v
+Collection	/usr/local/lib/python3.9/typing.py	/^Collection = _alias(collections.abc.Collection, 1)$/;"	v
+Container	/usr/local/lib/python3.9/typing.py	/^Container = _alias(collections.abc.Container, 1)$/;"	v
+ContextManager	/usr/local/lib/python3.9/typing.py	/^ContextManager = _alias(contextlib.AbstractContextManager, 1, name='ContextManager')$/;"	v
+Coroutine	/usr/local/lib/python3.9/typing.py	/^Coroutine = _alias(collections.abc.Coroutine, 3)$/;"	v
+Counter	/usr/local/lib/python3.9/typing.py	/^Counter = _alias(collections.Counter, 1)$/;"	v
+DEBUG	schnorr_lib.py	/^DEBUG = False$/;"	v
+DefaultDict	/usr/local/lib/python3.9/typing.py	/^DefaultDict = _alias(collections.defaultdict, 2, name='DefaultDict')$/;"	v
+Deque	/usr/local/lib/python3.9/typing.py	/^Deque = _alias(collections.deque, 1, name='Deque')$/;"	v
+Dialect	/usr/local/lib/python3.9/csv.py	/^class Dialect:$/;"	c
+Dict	/usr/local/lib/python3.9/typing.py	/^Dict = _alias(dict, 2, inst=False, name='Dict')$/;"	v
+DictReader	/usr/local/lib/python3.9/csv.py	/^class DictReader:$/;"	c
+DictWriter	/usr/local/lib/python3.9/csv.py	/^class DictWriter:$/;"	c
+EXCLUDED_ATTRIBUTES	/usr/local/lib/python3.9/typing.py	/^EXCLUDED_ATTRIBUTES = _TYPING_INTERNALS + _SPECIAL_NAMES + ['_MutableMapping__marker']$/;"	v
+EndOfBlock	/usr/local/lib/python3.9/inspect.py	/^class EndOfBlock(Exception): pass$/;"	c
+Final	/usr/local/lib/python3.9/typing.py	/^def Final(self, parameters):$/;"	f
+ForwardRef	/usr/local/lib/python3.9/typing.py	/^class ForwardRef(_Final, _root=True):$/;"	c
+FrameInfo	/usr/local/lib/python3.9/inspect.py	/^FrameInfo = namedtuple('FrameInfo', ('frame',) + Traceback._fields)$/;"	v
+FrozenSet	/usr/local/lib/python3.9/typing.py	/^FrozenSet = _alias(frozenset, 1, inst=False, name='FrozenSet')$/;"	v
+FullArgSpec	/usr/local/lib/python3.9/inspect.py	/^FullArgSpec = namedtuple('FullArgSpec',$/;"	v
+G	schnorr_lib.py	/^G = (0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798, 0x483ADA7726A3C4655DA4F/;"	v
+GEN_CLOSED	/usr/local/lib/python3.9/inspect.py	/^GEN_CLOSED = 'GEN_CLOSED'$/;"	v
+GEN_CREATED	/usr/local/lib/python3.9/inspect.py	/^GEN_CREATED = 'GEN_CREATED'$/;"	v
+GEN_RUNNING	/usr/local/lib/python3.9/inspect.py	/^GEN_RUNNING = 'GEN_RUNNING'$/;"	v
+GEN_SUSPENDED	/usr/local/lib/python3.9/inspect.py	/^GEN_SUSPENDED = 'GEN_SUSPENDED'$/;"	v
+Generator	/usr/local/lib/python3.9/typing.py	/^Generator = _alias(collections.abc.Generator, 3)$/;"	v
+Generic	/usr/local/lib/python3.9/typing.py	/^class Generic:$/;"	c
+GenericAlias	/usr/local/lib/python3.9/os.py	/^GenericAlias = type(list[int])$/;"	v
+Hashable	/usr/local/lib/python3.9/typing.py	/^Hashable = _alias(collections.abc.Hashable, 0)  # Not generic.$/;"	v
+IO	/usr/local/lib/python3.9/typing.py	/^    IO = IO$/;"	v	class:io
+IO	/usr/local/lib/python3.9/typing.py	/^class IO(Generic[AnyStr]):$/;"	c
+ItemsView	/usr/local/lib/python3.9/typing.py	/^ItemsView = _alias(collections.abc.ItemsView, 2)$/;"	v
+Iterable	/usr/local/lib/python3.9/typing.py	/^Iterable = _alias(collections.abc.Iterable, 1)$/;"	v
+Iterator	/usr/local/lib/python3.9/typing.py	/^Iterator = _alias(collections.abc.Iterator, 1)$/;"	v
+KEYWORD_ONLY	/usr/local/lib/python3.9/inspect.py	/^    KEYWORD_ONLY            = _KEYWORD_ONLY$/;"	v	class:Parameter
+KEYWORD_ONLY	/usr/local/lib/python3.9/inspect.py	/^    KEYWORD_ONLY = 3$/;"	v	class:_ParameterKind
+KT	/usr/local/lib/python3.9/typing.py	/^KT = TypeVar('KT')  # Key type.$/;"	v
+KeysView	/usr/local/lib/python3.9/typing.py	/^KeysView = _alias(collections.abc.KeysView, 1)$/;"	v
+List	/usr/local/lib/python3.9/typing.py	/^List = _alias(list, 1, inst=False, name='List')$/;"	v
+Literal	/usr/local/lib/python3.9/typing.py	/^def Literal(self, *parameters):$/;"	f
+Mapping	/usr/local/lib/python3.9/typing.py	/^Mapping = _alias(collections.abc.Mapping, 2)$/;"	v
+MappingView	/usr/local/lib/python3.9/typing.py	/^MappingView = _alias(collections.abc.MappingView, 1)$/;"	v
+Match	/usr/local/lib/python3.9/typing.py	/^    Match = Match$/;"	v	class:re
+Match	/usr/local/lib/python3.9/typing.py	/^Match = _alias(stdlib_re.Match, 1)$/;"	v
+MutableMapping	/usr/local/lib/python3.9/typing.py	/^MutableMapping = _alias(collections.abc.MutableMapping, 2)$/;"	v
+MutableSequence	/usr/local/lib/python3.9/typing.py	/^MutableSequence = _alias(collections.abc.MutableSequence, 1)$/;"	v
+MutableSet	/usr/local/lib/python3.9/typing.py	/^MutableSet = _alias(collections.abc.MutableSet, 1)$/;"	v
+NamedTuple	/usr/local/lib/python3.9/typing.py	/^def NamedTuple(typename, fields=None, \/, **kwargs):$/;"	f
+NamedTupleMeta	/usr/local/lib/python3.9/typing.py	/^class NamedTupleMeta(type):$/;"	c
+NewType	/usr/local/lib/python3.9/typing.py	/^def NewType(name, tp):$/;"	f
+NoReturn	/usr/local/lib/python3.9/typing.py	/^def NoReturn(self, parameters):$/;"	f
+Optional	/usr/local/lib/python3.9/typing.py	/^def Optional(self, parameters):$/;"	f
+OrderedDict	/usr/local/lib/python3.9/typing.py	/^OrderedDict = _alias(collections.OrderedDict, 2)$/;"	v
+POSITIONAL_ONLY	/usr/local/lib/python3.9/inspect.py	/^    POSITIONAL_ONLY         = _POSITIONAL_ONLY$/;"	v	class:Parameter
+POSITIONAL_ONLY	/usr/local/lib/python3.9/inspect.py	/^    POSITIONAL_ONLY = 0$/;"	v	class:_ParameterKind
+POSITIONAL_OR_KEYWORD	/usr/local/lib/python3.9/inspect.py	/^    POSITIONAL_OR_KEYWORD   = _POSITIONAL_OR_KEYWORD$/;"	v	class:Parameter
+POSITIONAL_OR_KEYWORD	/usr/local/lib/python3.9/inspect.py	/^    POSITIONAL_OR_KEYWORD = 1$/;"	v	class:_ParameterKind
+P_NOWAIT	/usr/local/lib/python3.9/os.py	/^    P_NOWAIT = P_NOWAITO = 1$/;"	v
+P_WAIT	/usr/local/lib/python3.9/os.py	/^    P_WAIT = 0$/;"	v
+Parameter	/usr/local/lib/python3.9/inspect.py	/^class Parameter:$/;"	c
+PathLike	/usr/local/lib/python3.9/os.py	/^class PathLike(abc.ABC):$/;"	c
+Pattern	/usr/local/lib/python3.9/typing.py	/^    Pattern = Pattern$/;"	v	class:re
+Pattern	/usr/local/lib/python3.9/typing.py	/^Pattern = _alias(stdlib_re.Pattern, 1)$/;"	v
+Point	schnorr_lib.py	/^Point = Tuple[int, int]$/;"	v
+Protocol	/usr/local/lib/python3.9/typing.py	/^class Protocol(Generic, metaclass=_ProtocolMeta):$/;"	c
+Reversible	/usr/local/lib/python3.9/typing.py	/^Reversible = _alias(collections.abc.Reversible, 1)$/;"	v
+RewriteSymbolics	/usr/local/lib/python3.9/inspect.py	/^    class RewriteSymbolics(ast.NodeTransformer):$/;"	c	function:_signature_fromstr	file:
+SEEK_CUR	/usr/local/lib/python3.9/os.py	/^SEEK_CUR = 1$/;"	v
+SEEK_END	/usr/local/lib/python3.9/os.py	/^SEEK_END = 2$/;"	v
+SEEK_SET	/usr/local/lib/python3.9/os.py	/^SEEK_SET = 0$/;"	v
+Sequence	/usr/local/lib/python3.9/typing.py	/^Sequence = _alias(collections.abc.Sequence, 1)$/;"	v
+Set	/usr/local/lib/python3.9/typing.py	/^Set = _alias(set, 1, inst=False, name='Set')$/;"	v
+Signature	/usr/local/lib/python3.9/inspect.py	/^class Signature:$/;"	c
+Sized	/usr/local/lib/python3.9/typing.py	/^Sized = _alias(collections.abc.Sized, 0)  # Not generic.$/;"	v
+Sniffer	/usr/local/lib/python3.9/csv.py	/^class Sniffer:$/;"	c
+SupportsAbs	/usr/local/lib/python3.9/typing.py	/^class SupportsAbs(Protocol[T_co]):$/;"	c
+SupportsBytes	/usr/local/lib/python3.9/typing.py	/^class SupportsBytes(Protocol):$/;"	c
+SupportsComplex	/usr/local/lib/python3.9/typing.py	/^class SupportsComplex(Protocol):$/;"	c
+SupportsFloat	/usr/local/lib/python3.9/typing.py	/^class SupportsFloat(Protocol):$/;"	c
+SupportsIndex	/usr/local/lib/python3.9/typing.py	/^class SupportsIndex(Protocol):$/;"	c
+SupportsInt	/usr/local/lib/python3.9/typing.py	/^class SupportsInt(Protocol):$/;"	c
+SupportsRound	/usr/local/lib/python3.9/typing.py	/^class SupportsRound(Protocol[T_co]):$/;"	c
+T	/usr/local/lib/python3.9/typing.py	/^T = TypeVar('T')  # Any type.$/;"	v
+TPFLAGS_IS_ABSTRACT	/usr/local/lib/python3.9/inspect.py	/^TPFLAGS_IS_ABSTRACT = 1 << 20$/;"	v
+TYPE_CHECKING	/usr/local/lib/python3.9/typing.py	/^TYPE_CHECKING = False$/;"	v
+T_co	/usr/local/lib/python3.9/typing.py	/^T_co = TypeVar('T_co', covariant=True)  # Any type covariant containers.$/;"	v
+T_contra	/usr/local/lib/python3.9/typing.py	/^T_contra = TypeVar('T_contra', contravariant=True)  # Ditto contravariant.$/;"	v
+Text	/usr/local/lib/python3.9/typing.py	/^Text = str$/;"	v
+TextIO	/usr/local/lib/python3.9/typing.py	/^    TextIO = TextIO$/;"	v	class:io
+TextIO	/usr/local/lib/python3.9/typing.py	/^class TextIO(IO[str]):$/;"	c
+Traceback	/usr/local/lib/python3.9/inspect.py	/^Traceback = namedtuple('Traceback', 'filename lineno function code_context index')$/;"	v
+Tuple	/usr/local/lib/python3.9/typing.py	/^Tuple = _TupleType(tuple, -1, inst=False, name='Tuple')$/;"	v
+Type	/usr/local/lib/python3.9/typing.py	/^Type = _alias(type, 1, inst=False, name='Type')$/;"	v
+TypeVar	/usr/local/lib/python3.9/typing.py	/^class TypeVar(_Final, _Immutable, _root=True):$/;"	c
+TypedDict	/usr/local/lib/python3.9/typing.py	/^def TypedDict(typename, fields=None, \/, *, total=True, **kwargs):$/;"	f
+Union	/usr/local/lib/python3.9/typing.py	/^def Union(self, parameters):$/;"	f
+VAR_KEYWORD	/usr/local/lib/python3.9/inspect.py	/^    VAR_KEYWORD             = _VAR_KEYWORD$/;"	v	class:Parameter
+VAR_KEYWORD	/usr/local/lib/python3.9/inspect.py	/^    VAR_KEYWORD = 4$/;"	v	class:_ParameterKind
+VAR_POSITIONAL	/usr/local/lib/python3.9/inspect.py	/^    VAR_POSITIONAL          = _VAR_POSITIONAL$/;"	v	class:Parameter
+VAR_POSITIONAL	/usr/local/lib/python3.9/inspect.py	/^    VAR_POSITIONAL = 2$/;"	v	class:_ParameterKind
+VT	/usr/local/lib/python3.9/typing.py	/^VT = TypeVar('VT')  # Value type.$/;"	v
+VT_co	/usr/local/lib/python3.9/typing.py	/^VT_co = TypeVar('VT_co', covariant=True)  # Value type covariant containers.$/;"	v
+V_co	/usr/local/lib/python3.9/typing.py	/^V_co = TypeVar('V_co', covariant=True)  # Any type covariant containers.$/;"	v
+ValuesView	/usr/local/lib/python3.9/typing.py	/^ValuesView = _alias(collections.abc.ValuesView, 1)$/;"	v
+_AddedDllDirectory	/usr/local/lib/python3.9/os.py	/^    class _AddedDllDirectory:$/;"	c
+_AnnotatedAlias	/usr/local/lib/python3.9/typing.py	/^class _AnnotatedAlias(_GenericAlias, _root=True):$/;"	c
+_BaseGenericAlias	/usr/local/lib/python3.9/typing.py	/^class _BaseGenericAlias(_Final, _root=True):$/;"	c
+_CallableGenericAlias	/usr/local/lib/python3.9/typing.py	/^class _CallableGenericAlias(_GenericAlias, _root=True):$/;"	c
+_CallableType	/usr/local/lib/python3.9/typing.py	/^class _CallableType(_SpecialGenericAlias, _root=True):$/;"	c
+_ClassFinder	/usr/local/lib/python3.9/inspect.py	/^class _ClassFinder(ast.NodeVisitor):$/;"	c
+_ClassMethodWrapper	/usr/local/lib/python3.9/inspect.py	/^_ClassMethodWrapper = type(int.__dict__['from_bytes'])$/;"	v
+_Dialect	/usr/local/lib/python3.9/csv.py	/^from _csv import Dialect as _Dialect$/;"	x	nameref:unknown:Dialect
+_Environ	/usr/local/lib/python3.9/os.py	/^class _Environ(MutableMapping):$/;"	c
+_Final	/usr/local/lib/python3.9/typing.py	/^class _Final:$/;"	c
+_GenericAlias	/usr/local/lib/python3.9/typing.py	/^class _GenericAlias(_BaseGenericAlias, _root=True):$/;"	c
+_Immutable	/usr/local/lib/python3.9/typing.py	/^class _Immutable:$/;"	c
+_KEYWORD_ONLY	/usr/local/lib/python3.9/inspect.py	/^_KEYWORD_ONLY            = _ParameterKind.KEYWORD_ONLY$/;"	v
+_LiteralGenericAlias	/usr/local/lib/python3.9/typing.py	/^class _LiteralGenericAlias(_GenericAlias, _root=True):$/;"	c
+_LiteralSpecialForm	/usr/local/lib/python3.9/typing.py	/^class _LiteralSpecialForm(_SpecialForm, _root=True):$/;"	c
+_MethodWrapper	/usr/local/lib/python3.9/inspect.py	/^_MethodWrapper = type(all.__call__)$/;"	v
+_NamedTuple	/usr/local/lib/python3.9/typing.py	/^_NamedTuple = type.__new__(NamedTupleMeta, 'NamedTuple', (), {})$/;"	v
+_NonUserDefinedCallables	/usr/local/lib/python3.9/inspect.py	/^_NonUserDefinedCallables = (_WrapperDescriptor,$/;"	v
+_PARAM_NAME_MAPPING	/usr/local/lib/python3.9/inspect.py	/^_PARAM_NAME_MAPPING = {$/;"	v
+_POSITIONAL_ONLY	/usr/local/lib/python3.9/inspect.py	/^_POSITIONAL_ONLY         = _ParameterKind.POSITIONAL_ONLY$/;"	v
+_POSITIONAL_OR_KEYWORD	/usr/local/lib/python3.9/inspect.py	/^_POSITIONAL_OR_KEYWORD   = _ParameterKind.POSITIONAL_OR_KEYWORD$/;"	v
+_PROTO_WHITELIST	/usr/local/lib/python3.9/typing.py	/^_PROTO_WHITELIST = {$/;"	v
+_ParameterKind	/usr/local/lib/python3.9/inspect.py	/^class _ParameterKind(enum.IntEnum):$/;"	c
+_ProtocolMeta	/usr/local/lib/python3.9/typing.py	/^class _ProtocolMeta(ABCMeta):$/;"	c
+_SPECIAL_NAMES	/usr/local/lib/python3.9/typing.py	/^_SPECIAL_NAMES = ['__abstractmethods__', '__annotations__', '__dict__', '__doc__',$/;"	v
+_SpecialForm	/usr/local/lib/python3.9/typing.py	/^class _SpecialForm(_Final, _root=True):$/;"	c
+_SpecialGenericAlias	/usr/local/lib/python3.9/typing.py	/^class _SpecialGenericAlias(_BaseGenericAlias, _root=True):$/;"	c
+_TYPING_INTERNALS	/usr/local/lib/python3.9/typing.py	/^_TYPING_INTERNALS = ['__parameters__', '__orig_bases__',  '__orig_class__',$/;"	v
+_TupleType	/usr/local/lib/python3.9/typing.py	/^class _TupleType(_SpecialGenericAlias, _root=True):$/;"	c
+_TypedDict	/usr/local/lib/python3.9/typing.py	/^_TypedDict = type.__new__(_TypedDictMeta, 'TypedDict', (), {})$/;"	v
+_TypedDictMeta	/usr/local/lib/python3.9/typing.py	/^class _TypedDictMeta(type):$/;"	c
+_TypingEllipsis	/usr/local/lib/python3.9/typing.py	/^class _TypingEllipsis:$/;"	c
+_TypingEmpty	/usr/local/lib/python3.9/typing.py	/^class _TypingEmpty:$/;"	c
+_UnionGenericAlias	/usr/local/lib/python3.9/typing.py	/^class _UnionGenericAlias(_GenericAlias, _root=True):$/;"	c
+_VAR_KEYWORD	/usr/local/lib/python3.9/inspect.py	/^_VAR_KEYWORD             = _ParameterKind.VAR_KEYWORD$/;"	v
+_VAR_POSITIONAL	/usr/local/lib/python3.9/inspect.py	/^_VAR_POSITIONAL          = _ParameterKind.VAR_POSITIONAL$/;"	v
+_WrapperDescriptor	/usr/local/lib/python3.9/inspect.py	/^_WrapperDescriptor = type(type.__call__)$/;"	v
+__abs__	/usr/local/lib/python3.9/typing.py	/^    def __abs__(self) -> T_co:$/;"	m	class:SupportsAbs	typeref:typename:T_co
+__all__	/usr/local/lib/python3.9/csv.py	/^__all__ = ["QUOTE_MINIMAL", "QUOTE_ALL", "QUOTE_NONNUMERIC", "QUOTE_NONE",$/;"	v
+__all__	/usr/local/lib/python3.9/hashlib.py	/^__all__ = __always_supported + ('new', 'algorithms_guaranteed',$/;"	v
+__all__	/usr/local/lib/python3.9/os.py	/^__all__ = ["altsep", "curdir", "pardir", "sep", "pathsep", "linesep",$/;"	v
+__all__	/usr/local/lib/python3.9/typing.py	/^    __all__ = ['IO', 'TextIO', 'BinaryIO']$/;"	v	class:io	file:
+__all__	/usr/local/lib/python3.9/typing.py	/^    __all__ = ['Pattern', 'Match']$/;"	v	class:re	file:
+__all__	/usr/local/lib/python3.9/typing.py	/^__all__ = [$/;"	v
+__always_supported	/usr/local/lib/python3.9/hashlib.py	/^__always_supported = ('md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512',$/;"	v
+__author__	/usr/local/lib/python3.9/inspect.py	/^__author__ = ('Ka-Ping Yee <ping@lfw.org>',$/;"	v
+__block_openssl_constructor	/usr/local/lib/python3.9/hashlib.py	/^__block_openssl_constructor = {$/;"	v
+__builtin_constructor_cache	/usr/local/lib/python3.9/hashlib.py	/^__builtin_constructor_cache = {}$/;"	v
+__bytes__	/usr/local/lib/python3.9/typing.py	/^    def __bytes__(self) -> bytes:$/;"	m	class:SupportsBytes	typeref:typename:bytes
+__call__	/usr/local/lib/python3.9/typing.py	/^    __call__ = dict  # static method$/;"	v	class:_TypedDictMeta	file:
+__call__	/usr/local/lib/python3.9/typing.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:_BaseGenericAlias
+__call__	/usr/local/lib/python3.9/typing.py	/^    def __call__(self, *args, **kwds):$/;"	m	class:_SpecialForm
+__class_getitem__	/usr/local/lib/python3.9/os.py	/^    __class_getitem__ = classmethod(GenericAlias)$/;"	v	class:PathLike	file:
+__class_getitem__	/usr/local/lib/python3.9/typing.py	/^    def __class_getitem__(cls, params):$/;"	m	class:Annotated
+__class_getitem__	/usr/local/lib/python3.9/typing.py	/^    def __class_getitem__(cls, params):$/;"	m	class:Generic
+__complex__	/usr/local/lib/python3.9/typing.py	/^    def __complex__(self) -> complex:$/;"	m	class:SupportsComplex	typeref:typename:complex
+__copy__	/usr/local/lib/python3.9/typing.py	/^    def __copy__(self):$/;"	m	class:_Immutable
+__deepcopy__	/usr/local/lib/python3.9/typing.py	/^    def __deepcopy__(self, memo):$/;"	m	class:_Immutable
+__delitem__	/usr/local/lib/python3.9/os.py	/^    def __delitem__(self, key):$/;"	m	class:_Environ
+__doc__	/usr/local/lib/python3.9/hashlib.py	/^__doc__ = """hashlib module - A common interface to many hash functions.$/;"	v
+__enter__	/usr/local/lib/python3.9/os.py	/^        def __enter__(self):$/;"	m	class:_AddedDllDirectory
+__enter__	/usr/local/lib/python3.9/os.py	/^    def __enter__(self):$/;"	m	class:_wrap_close
+__enter__	/usr/local/lib/python3.9/typing.py	/^    def __enter__(self) -> 'BinaryIO':$/;"	m	class:BinaryIO	typeref:typename:'BinaryIO'
+__enter__	/usr/local/lib/python3.9/typing.py	/^    def __enter__(self) -> 'IO[AnyStr]':$/;"	m	class:IO	typeref:typename:'IO[AnyStr]'
+__enter__	/usr/local/lib/python3.9/typing.py	/^    def __enter__(self) -> 'TextIO':$/;"	m	class:TextIO	typeref:typename:'TextIO'
+__eq__	/usr/local/lib/python3.9/inspect.py	/^    def __eq__(self, other):$/;"	m	class:BoundArguments
+__eq__	/usr/local/lib/python3.9/inspect.py	/^    def __eq__(self, other):$/;"	m	class:Parameter
+__eq__	/usr/local/lib/python3.9/inspect.py	/^    def __eq__(self, other):$/;"	m	class:Signature
+__eq__	/usr/local/lib/python3.9/typing.py	/^    def __eq__(self, other):$/;"	m	class:ForwardRef
+__eq__	/usr/local/lib/python3.9/typing.py	/^    def __eq__(self, other):$/;"	m	class:_AnnotatedAlias
+__eq__	/usr/local/lib/python3.9/typing.py	/^    def __eq__(self, other):$/;"	m	class:_GenericAlias
+__eq__	/usr/local/lib/python3.9/typing.py	/^    def __eq__(self, other):$/;"	m	class:_LiteralGenericAlias
+__eq__	/usr/local/lib/python3.9/typing.py	/^    def __eq__(self, other):$/;"	m	class:_UnionGenericAlias
+__exit__	/usr/local/lib/python3.9/os.py	/^        def __exit__(self, *args):$/;"	m	class:_AddedDllDirectory
+__exit__	/usr/local/lib/python3.9/os.py	/^    def __exit__(self, *args):$/;"	m	class:_wrap_close
+__exit__	/usr/local/lib/python3.9/typing.py	/^    def __exit__(self, type, value, traceback) -> None:$/;"	m	class:IO	typeref:typename:None
+__float__	/usr/local/lib/python3.9/typing.py	/^    def __float__(self) -> float:$/;"	m	class:SupportsFloat	typeref:typename:float
+__fspath__	/usr/local/lib/python3.9/os.py	/^    def __fspath__(self):$/;"	m	class:PathLike
+__get_builtin_constructor	/usr/local/lib/python3.9/hashlib.py	/^def __get_builtin_constructor(name):$/;"	f
+__get_hash	/usr/local/lib/python3.9/hashlib.py	/^    __get_hash = __get_builtin_constructor$/;"	v
+__get_hash	/usr/local/lib/python3.9/hashlib.py	/^    __get_hash = __get_openssl_constructor$/;"	v
+__get_openssl_constructor	/usr/local/lib/python3.9/hashlib.py	/^def __get_openssl_constructor(name):$/;"	f
+__getattr__	/usr/local/lib/python3.9/os.py	/^    def __getattr__(self, name):$/;"	m	class:_wrap_close
+__getattr__	/usr/local/lib/python3.9/typing.py	/^    def __getattr__(self, attr):$/;"	m	class:_BaseGenericAlias
+__getitem__	/usr/local/lib/python3.9/os.py	/^    def __getitem__(self, key):$/;"	m	class:_Environ
+__getitem__	/usr/local/lib/python3.9/typing.py	/^    def __getitem__(self, parameters):$/;"	m	class:_LiteralSpecialForm
+__getitem__	/usr/local/lib/python3.9/typing.py	/^    def __getitem__(self, parameters):$/;"	m	class:_SpecialForm
+__getitem__	/usr/local/lib/python3.9/typing.py	/^    def __getitem__(self, params):$/;"	m	class:_CallableType
+__getitem__	/usr/local/lib/python3.9/typing.py	/^    def __getitem__(self, params):$/;"	m	class:_GenericAlias
+__getitem__	/usr/local/lib/python3.9/typing.py	/^    def __getitem__(self, params):$/;"	m	class:_SpecialGenericAlias
+__getitem__	/usr/local/lib/python3.9/typing.py	/^    def __getitem__(self, params):$/;"	m	class:_TupleType
+__getitem_inner__	/usr/local/lib/python3.9/typing.py	/^    def __getitem_inner__(self, params):$/;"	m	class:_CallableType
+__getstate__	/usr/local/lib/python3.9/inspect.py	/^    def __getstate__(self):$/;"	m	class:BoundArguments
+__hash__	/usr/local/lib/python3.9/inspect.py	/^    def __hash__(self):$/;"	m	class:Parameter
+__hash__	/usr/local/lib/python3.9/inspect.py	/^    def __hash__(self):$/;"	m	class:Signature
+__hash__	/usr/local/lib/python3.9/typing.py	/^    def __hash__(self):$/;"	m	class:ForwardRef
+__hash__	/usr/local/lib/python3.9/typing.py	/^    def __hash__(self):$/;"	m	class:_AnnotatedAlias
+__hash__	/usr/local/lib/python3.9/typing.py	/^    def __hash__(self):$/;"	m	class:_GenericAlias
+__hash__	/usr/local/lib/python3.9/typing.py	/^    def __hash__(self):$/;"	m	class:_LiteralGenericAlias
+__hash__	/usr/local/lib/python3.9/typing.py	/^    def __hash__(self):$/;"	m	class:_UnionGenericAlias
+__hash_new	/usr/local/lib/python3.9/hashlib.py	/^def __hash_new(name, data=b'', **kwargs):$/;"	f
+__index__	/usr/local/lib/python3.9/typing.py	/^    def __index__(self) -> int:$/;"	m	class:SupportsIndex	typeref:typename:int
+__init__	/usr/local/lib/python3.9/csv.py	/^    def __init__(self):$/;"	m	class:Dialect
+__init__	/usr/local/lib/python3.9/csv.py	/^    def __init__(self):$/;"	m	class:Sniffer
+__init__	/usr/local/lib/python3.9/csv.py	/^    def __init__(self, f, fieldnames, restval="", extrasaction="raise",$/;"	m	class:DictWriter
+__init__	/usr/local/lib/python3.9/csv.py	/^    def __init__(self, f, fieldnames=None, restkey=None, restval=None,$/;"	m	class:DictReader
+__init__	/usr/local/lib/python3.9/inspect.py	/^    def __init__(self):$/;"	m	class:BlockFinder
+__init__	/usr/local/lib/python3.9/inspect.py	/^    def __init__(self, name, kind, *, default=_empty, annotation=_empty):$/;"	m	class:Parameter
+__init__	/usr/local/lib/python3.9/inspect.py	/^    def __init__(self, parameters=None, *, return_annotation=_empty,$/;"	m	class:Signature
+__init__	/usr/local/lib/python3.9/inspect.py	/^    def __init__(self, qualname):$/;"	m	class:_ClassFinder
+__init__	/usr/local/lib/python3.9/inspect.py	/^    def __init__(self, signature, arguments):$/;"	m	class:BoundArguments
+__init__	/usr/local/lib/python3.9/os.py	/^        def __init__(self, path, cookie, remove_dll_directory):$/;"	m	class:_AddedDllDirectory
+__init__	/usr/local/lib/python3.9/os.py	/^    def __init__(self, data, encodekey, decodekey, encodevalue, decodevalue):$/;"	m	class:_Environ
+__init__	/usr/local/lib/python3.9/os.py	/^    def __init__(self, stream, proc):$/;"	m	class:_wrap_close
+__init__	/usr/local/lib/python3.9/typing.py	/^    def __init__(self, arg, is_argument=True, module=None, *, is_class=False):$/;"	m	class:ForwardRef
+__init__	/usr/local/lib/python3.9/typing.py	/^    def __init__(self, getitem):$/;"	m	class:_SpecialForm
+__init__	/usr/local/lib/python3.9/typing.py	/^    def __init__(self, name, *constraints, bound=None,$/;"	m	class:TypeVar
+__init__	/usr/local/lib/python3.9/typing.py	/^    def __init__(self, origin, *, inst=True, name=None):$/;"	m	class:_BaseGenericAlias
+__init__	/usr/local/lib/python3.9/typing.py	/^    def __init__(self, origin, metadata):$/;"	m	class:_AnnotatedAlias
+__init__	/usr/local/lib/python3.9/typing.py	/^    def __init__(self, origin, nparams, *, inst=True, name=None):$/;"	m	class:_SpecialGenericAlias
+__init__	/usr/local/lib/python3.9/typing.py	/^    def __init__(self, origin, params, *, inst=True, name=None):$/;"	m	class:_GenericAlias
+__init_subclass__	/usr/local/lib/python3.9/typing.py	/^    def __init_subclass__(cls, *args, **kwargs):$/;"	m	class:Annotated
+__init_subclass__	/usr/local/lib/python3.9/typing.py	/^    def __init_subclass__(cls, *args, **kwargs):$/;"	m	class:Generic
+__init_subclass__	/usr/local/lib/python3.9/typing.py	/^    def __init_subclass__(cls, *args, **kwargs):$/;"	m	class:Protocol
+__init_subclass__	/usr/local/lib/python3.9/typing.py	/^    def __init_subclass__(self, \/, *args, **kwds):$/;"	m	class:_Final
+__instancecheck__	/usr/local/lib/python3.9/typing.py	/^    __instancecheck__ = __subclasscheck__$/;"	v	class:_TypedDictMeta	file:
+__instancecheck__	/usr/local/lib/python3.9/typing.py	/^    def __instancecheck__(cls, instance):$/;"	m	class:_ProtocolMeta
+__instancecheck__	/usr/local/lib/python3.9/typing.py	/^    def __instancecheck__(self, obj):$/;"	m	class:_BaseGenericAlias
+__instancecheck__	/usr/local/lib/python3.9/typing.py	/^    def __instancecheck__(self, obj):$/;"	m	class:_SpecialForm
+__int__	/usr/local/lib/python3.9/typing.py	/^    def __int__(self) -> int:$/;"	m	class:SupportsInt	typeref:typename:int
+__ior__	/usr/local/lib/python3.9/os.py	/^    def __ior__(self, other):$/;"	m	class:_Environ
+__iter__	/usr/local/lib/python3.9/csv.py	/^    def __iter__(self):$/;"	m	class:DictReader
+__iter__	/usr/local/lib/python3.9/os.py	/^    def __iter__(self):$/;"	m	class:_Environ
+__iter__	/usr/local/lib/python3.9/os.py	/^    def __iter__(self):$/;"	m	class:_wrap_close
+__len__	/usr/local/lib/python3.9/os.py	/^    def __len__(self):$/;"	m	class:_Environ
+__mro_entries__	/usr/local/lib/python3.9/typing.py	/^    def __mro_entries__(self, bases):$/;"	m	class:_BaseGenericAlias
+__mro_entries__	/usr/local/lib/python3.9/typing.py	/^    def __mro_entries__(self, bases):$/;"	m	class:_GenericAlias
+__mro_entries__	/usr/local/lib/python3.9/typing.py	/^    def __mro_entries__(self, bases):$/;"	m	class:_SpecialForm
+__new__	/usr/local/lib/python3.9/typing.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:Annotated
+__new__	/usr/local/lib/python3.9/typing.py	/^    def __new__(cls, name, bases, ns, total=True):$/;"	m	class:_TypedDictMeta
+__new__	/usr/local/lib/python3.9/typing.py	/^    def __new__(cls, typename, bases, ns):$/;"	m	class:NamedTupleMeta
+__next__	/usr/local/lib/python3.9/csv.py	/^    def __next__(self):$/;"	m	class:DictReader
+__or__	/usr/local/lib/python3.9/os.py	/^    def __or__(self, other):$/;"	m	class:_Environ
+__py_new	/usr/local/lib/python3.9/hashlib.py	/^def __py_new(name, data=b'', **kwargs):$/;"	f
+__reduce__	/usr/local/lib/python3.9/inspect.py	/^    def __reduce__(self):$/;"	m	class:Parameter
+__reduce__	/usr/local/lib/python3.9/inspect.py	/^    def __reduce__(self):$/;"	m	class:Signature
+__reduce__	/usr/local/lib/python3.9/typing.py	/^    def __reduce__(self):$/;"	m	class:TypeVar
+__reduce__	/usr/local/lib/python3.9/typing.py	/^    def __reduce__(self):$/;"	m	class:_AnnotatedAlias
+__reduce__	/usr/local/lib/python3.9/typing.py	/^    def __reduce__(self):$/;"	m	class:_CallableGenericAlias
+__reduce__	/usr/local/lib/python3.9/typing.py	/^    def __reduce__(self):$/;"	m	class:_GenericAlias
+__reduce__	/usr/local/lib/python3.9/typing.py	/^    def __reduce__(self):$/;"	m	class:_SpecialForm
+__reduce__	/usr/local/lib/python3.9/typing.py	/^    def __reduce__(self):$/;"	m	class:_SpecialGenericAlias
+__repr__	/usr/local/lib/python3.9/inspect.py	/^    def __repr__(self):$/;"	m	class:BoundArguments
+__repr__	/usr/local/lib/python3.9/inspect.py	/^    def __repr__(self):$/;"	m	class:Parameter
+__repr__	/usr/local/lib/python3.9/inspect.py	/^    def __repr__(self):$/;"	m	class:Signature
+__repr__	/usr/local/lib/python3.9/os.py	/^        def __repr__(self):$/;"	m	class:_AddedDllDirectory
+__repr__	/usr/local/lib/python3.9/os.py	/^    def __repr__(self):$/;"	m	class:_Environ
+__repr__	/usr/local/lib/python3.9/typing.py	/^    def __repr__(self):$/;"	m	class:ForwardRef
+__repr__	/usr/local/lib/python3.9/typing.py	/^    def __repr__(self):$/;"	m	class:TypeVar
+__repr__	/usr/local/lib/python3.9/typing.py	/^    def __repr__(self):$/;"	m	class:_AnnotatedAlias
+__repr__	/usr/local/lib/python3.9/typing.py	/^    def __repr__(self):$/;"	m	class:_CallableGenericAlias
+__repr__	/usr/local/lib/python3.9/typing.py	/^    def __repr__(self):$/;"	m	class:_GenericAlias
+__repr__	/usr/local/lib/python3.9/typing.py	/^    def __repr__(self):$/;"	m	class:_SpecialForm
+__repr__	/usr/local/lib/python3.9/typing.py	/^    def __repr__(self):$/;"	m	class:_SpecialGenericAlias
+__repr__	/usr/local/lib/python3.9/typing.py	/^    def __repr__(self):$/;"	m	class:_UnionGenericAlias
+__ror__	/usr/local/lib/python3.9/os.py	/^    def __ror__(self, other):$/;"	m	class:_Environ
+__round__	/usr/local/lib/python3.9/typing.py	/^    def __round__(self, ndigits: int = 0) -> T_co:$/;"	m	class:SupportsRound	typeref:typename:T_co
+__setattr__	/usr/local/lib/python3.9/typing.py	/^    def __setattr__(self, attr, val):$/;"	m	class:_BaseGenericAlias
+__setitem__	/usr/local/lib/python3.9/os.py	/^    def __setitem__(self, key, value):$/;"	m	class:_Environ
+__setstate__	/usr/local/lib/python3.9/inspect.py	/^    def __setstate__(self, state):$/;"	m	class:BoundArguments
+__setstate__	/usr/local/lib/python3.9/inspect.py	/^    def __setstate__(self, state):$/;"	m	class:Parameter
+__setstate__	/usr/local/lib/python3.9/inspect.py	/^    def __setstate__(self, state):$/;"	m	class:Signature
+__slots__	/usr/local/lib/python3.9/inspect.py	/^    __slots__ = ('_name', '_kind', '_default', '_annotation')$/;"	v	class:Parameter	file:
+__slots__	/usr/local/lib/python3.9/inspect.py	/^    __slots__ = ('_return_annotation', '_parameters')$/;"	v	class:Signature	file:
+__slots__	/usr/local/lib/python3.9/inspect.py	/^    __slots__ = ('arguments', '_signature', '__weakref__')$/;"	v	class:BoundArguments	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ('__forward_arg__', '__forward_code__',$/;"	v	class:ForwardRef	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ('__name__', '__bound__', '__constraints__',$/;"	v	class:TypeVar	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ('__weakref__',)$/;"	v	class:_Final	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ('_name', '__doc__', '_getitem')$/;"	v	class:_SpecialForm	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:Annotated	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:BinaryIO	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:Generic	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:IO	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:Protocol	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:SupportsAbs	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:SupportsBytes	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:SupportsComplex	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:SupportsFloat	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:SupportsIndex	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:SupportsInt	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:SupportsRound	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:TextIO	file:
+__slots__	/usr/local/lib/python3.9/typing.py	/^    __slots__ = ()$/;"	v	class:_Immutable	file:
+__str__	/usr/local/lib/python3.9/inspect.py	/^    def __str__(self):$/;"	m	class:Parameter
+__str__	/usr/local/lib/python3.9/inspect.py	/^    def __str__(self):$/;"	m	class:Signature
+__str__	/usr/local/lib/python3.9/inspect.py	/^    def __str__(self):$/;"	m	class:_ParameterKind
+__subclasscheck__	/usr/local/lib/python3.9/typing.py	/^    def __subclasscheck__(cls, other):$/;"	m	class:_TypedDictMeta
+__subclasscheck__	/usr/local/lib/python3.9/typing.py	/^    def __subclasscheck__(self, cls):$/;"	m	class:_BaseGenericAlias
+__subclasscheck__	/usr/local/lib/python3.9/typing.py	/^    def __subclasscheck__(self, cls):$/;"	m	class:_SpecialForm
+__subclasscheck__	/usr/local/lib/python3.9/typing.py	/^    def __subclasscheck__(self, cls):$/;"	m	class:_SpecialGenericAlias
+__subclasshook__	/usr/local/lib/python3.9/os.py	/^    def __subclasshook__(cls, subclass):$/;"	m	class:PathLike
+_add	/usr/local/lib/python3.9/os.py	/^    def _add(str, fn):$/;"	f
+_alias	/usr/local/lib/python3.9/typing.py	/^_alias = _SpecialGenericAlias$/;"	v
+_allow_reckless_class_cheks	/usr/local/lib/python3.9/typing.py	/^def _allow_reckless_class_cheks():$/;"	f
+_allowed_types	/usr/local/lib/python3.9/typing.py	/^_allowed_types = (types.FunctionType, types.BuiltinFunctionType,$/;"	v
+_bind	/usr/local/lib/python3.9/inspect.py	/^    def _bind(self, args, kwargs, *, partial=False):$/;"	m	class:Signature
+_bound_arguments_cls	/usr/local/lib/python3.9/inspect.py	/^    _bound_arguments_cls = BoundArguments$/;"	v	class:Signature
+_check_bytes	/usr/local/lib/python3.9/os.py	/^    def _check_bytes(value):$/;"	f
+_check_class	/usr/local/lib/python3.9/inspect.py	/^def _check_class(klass, attr):$/;"	f
+_check_generic	/usr/local/lib/python3.9/typing.py	/^def _check_generic(cls, parameters, elen):$/;"	f
+_check_instance	/usr/local/lib/python3.9/inspect.py	/^def _check_instance(obj, attr):$/;"	f
+_cleanups	/usr/local/lib/python3.9/typing.py	/^_cleanups = []$/;"	v
+_collect_type_vars	/usr/local/lib/python3.9/typing.py	/^def _collect_type_vars(types):$/;"	f
+_createenviron	/usr/local/lib/python3.9/os.py	/^def _createenviron():$/;"	f
+_deduplicate	/usr/local/lib/python3.9/typing.py	/^def _deduplicate(params):$/;"	f
+_dict_to_list	/usr/local/lib/python3.9/csv.py	/^    def _dict_to_list(self, rowdict):$/;"	m	class:DictWriter
+_empty	/usr/local/lib/python3.9/inspect.py	/^class _empty:$/;"	c
+_eval_type	/usr/local/lib/python3.9/typing.py	/^def _eval_type(t, globalns, localns, recursive_guard=frozenset()):$/;"	f
+_evaluate	/usr/local/lib/python3.9/typing.py	/^    def _evaluate(self, globalns, localns, recursive_guard):$/;"	m	class:ForwardRef
+_execvpe	/usr/local/lib/python3.9/os.py	/^def _execvpe(file, args, env=None):$/;"	f
+_exists	/usr/local/lib/python3.9/os.py	/^def _exists(name):$/;"	f
+_filesbymodname	/usr/local/lib/python3.9/inspect.py	/^_filesbymodname = {}$/;"	v
+_findclass	/usr/local/lib/python3.9/inspect.py	/^def _findclass(func):$/;"	f
+_finddoc	/usr/local/lib/python3.9/inspect.py	/^def _finddoc(obj):$/;"	f
+_flatten_literal_params	/usr/local/lib/python3.9/typing.py	/^def _flatten_literal_params(parameters):$/;"	f
+_formatannotation	/usr/local/lib/python3.9/inspect.py	/^    def _formatannotation(annotation):$/;"	f	function:formatannotationrelativeto	file:
+_fscodec	/usr/local/lib/python3.9/os.py	/^def _fscodec():$/;"	f
+_fspath	/usr/local/lib/python3.9/os.py	/^def _fspath(path):$/;"	f
+_fwalk	/usr/local/lib/python3.9/os.py	/^    def _fwalk(topfd, toppath, isbytes, topdown, onerror, follow_symlinks):$/;"	f
+_get_defaults	/usr/local/lib/python3.9/typing.py	/^def _get_defaults(func):$/;"	f
+_get_exports_list	/usr/local/lib/python3.9/os.py	/^def _get_exports_list(module):$/;"	f
+_get_protocol_attrs	/usr/local/lib/python3.9/typing.py	/^def _get_protocol_attrs(cls):$/;"	f
+_globals	/usr/local/lib/python3.9/os.py	/^    _globals = globals()$/;"	v
+_guess_delimiter	/usr/local/lib/python3.9/csv.py	/^    def _guess_delimiter(self, data, delimiters):$/;"	m	class:Sniffer
+_guess_quote_and_delimiter	/usr/local/lib/python3.9/csv.py	/^    def _guess_quote_and_delimiter(self, data, delimiters):$/;"	m	class:Sniffer
+_has_code_flag	/usr/local/lib/python3.9/inspect.py	/^def _has_code_flag(f, flag):$/;"	f
+_hash_basis	/usr/local/lib/python3.9/inspect.py	/^    def _hash_basis(self):$/;"	m	class:Signature
+_is_callable_members_only	/usr/local/lib/python3.9/typing.py	/^def _is_callable_members_only(cls):$/;"	f
+_is_dunder	/usr/local/lib/python3.9/typing.py	/^def _is_dunder(attr):$/;"	f
+_is_protocol	/usr/local/lib/python3.9/typing.py	/^    _is_protocol = False$/;"	v	class:Generic
+_is_protocol	/usr/local/lib/python3.9/typing.py	/^    _is_protocol = True$/;"	v	class:Protocol
+_is_runtime_protocol	/usr/local/lib/python3.9/typing.py	/^    _is_runtime_protocol = False$/;"	v	class:Protocol
+_is_type	/usr/local/lib/python3.9/inspect.py	/^def _is_type(obj):$/;"	f
+_is_wrapper	/usr/local/lib/python3.9/inspect.py	/^        def _is_wrapper(f):$/;"	f	function:unwrap	file:
+_main	/usr/local/lib/python3.9/inspect.py	/^def _main():$/;"	f
+_make_nmtuple	/usr/local/lib/python3.9/typing.py	/^def _make_nmtuple(name, types, module, defaults = ()):$/;"	f
+_missing_arguments	/usr/local/lib/python3.9/inspect.py	/^def _missing_arguments(f_name, argnames, pos, values):$/;"	f
+_name	/usr/local/lib/python3.9/csv.py	/^            _name = "sniffed"$/;"	v	class:Sniffer.sniff.dialect
+_name	/usr/local/lib/python3.9/csv.py	/^    _name = ""$/;"	v	class:Dialect
+_namedtuple_mro_entries	/usr/local/lib/python3.9/typing.py	/^def _namedtuple_mro_entries(bases):$/;"	f
+_names	/usr/local/lib/python3.9/os.py	/^_names = sys.builtin_module_names$/;"	v
+_no_init_or_replace_init	/usr/local/lib/python3.9/typing.py	/^def _no_init_or_replace_init(self, *args, **kwargs):$/;"	f
+_overload_dummy	/usr/local/lib/python3.9/typing.py	/^def _overload_dummy(*args, **kwds):$/;"	f
+_parameter_cls	/usr/local/lib/python3.9/inspect.py	/^    _parameter_cls = Parameter$/;"	v	class:Signature
+_prohibited	/usr/local/lib/python3.9/typing.py	/^_prohibited = frozenset({'__new__', '__init__', '__slots__', '__getnewargs__',$/;"	v
+_proto_hook	/usr/local/lib/python3.9/typing.py	/^        def _proto_hook(other):$/;"	f	member:Protocol.__init_subclass__	file:
+_remove_dups_flatten	/usr/local/lib/python3.9/typing.py	/^def _remove_dups_flatten(parameters):$/;"	f
+_sentinel	/usr/local/lib/python3.9/inspect.py	/^_sentinel = object()$/;"	v
+_set	/usr/local/lib/python3.9/os.py	/^    _set = set()$/;"	v
+_shadowed_dict	/usr/local/lib/python3.9/inspect.py	/^def _shadowed_dict(klass):$/;"	f
+_signature_bound_method	/usr/local/lib/python3.9/inspect.py	/^def _signature_bound_method(sig):$/;"	f
+_signature_from_builtin	/usr/local/lib/python3.9/inspect.py	/^def _signature_from_builtin(cls, func, skip_bound_arg=True):$/;"	f
+_signature_from_callable	/usr/local/lib/python3.9/inspect.py	/^def _signature_from_callable(obj, *,$/;"	f
+_signature_from_function	/usr/local/lib/python3.9/inspect.py	/^def _signature_from_function(cls, func, skip_bound_arg=True):$/;"	f
+_signature_fromstr	/usr/local/lib/python3.9/inspect.py	/^def _signature_fromstr(cls, obj, s, skip_bound_arg=True):$/;"	f
+_signature_get_bound_param	/usr/local/lib/python3.9/inspect.py	/^def _signature_get_bound_param(spec):$/;"	f
+_signature_get_partial	/usr/local/lib/python3.9/inspect.py	/^def _signature_get_partial(wrapped_sig, partial, extra_args=()):$/;"	f
+_signature_get_user_defined_method	/usr/local/lib/python3.9/inspect.py	/^def _signature_get_user_defined_method(cls, method_name):$/;"	f
+_signature_is_builtin	/usr/local/lib/python3.9/inspect.py	/^def _signature_is_builtin(obj):$/;"	f
+_signature_is_functionlike	/usr/local/lib/python3.9/inspect.py	/^def _signature_is_functionlike(obj):$/;"	f
+_signature_strip_non_python_syntax	/usr/local/lib/python3.9/inspect.py	/^def _signature_strip_non_python_syntax(signature):$/;"	f
+_spawnvef	/usr/local/lib/python3.9/os.py	/^    def _spawnvef(mode, file, args, env, func):$/;"	f
+_special	/usr/local/lib/python3.9/typing.py	/^_special = frozenset({'__module__', '__name__', '__annotations__'})$/;"	v
+_static_getmro	/usr/local/lib/python3.9/inspect.py	/^def _static_getmro(klass):$/;"	f
+_strip_annotations	/usr/local/lib/python3.9/typing.py	/^def _strip_annotations(t):$/;"	f
+_too_many	/usr/local/lib/python3.9/inspect.py	/^def _too_many(f_name, args, kwonly, varargs, defcount, given, values):$/;"	f
+_tp_cache	/usr/local/lib/python3.9/typing.py	/^def _tp_cache(func=None, \/, *, typed=False):$/;"	f
+_trans_36	/usr/local/lib/python3.9/hashlib.py	/^    _trans_36 = bytes((x ^ 0x36) for x in range(256))$/;"	v
+_trans_5C	/usr/local/lib/python3.9/hashlib.py	/^    _trans_5C = bytes((x ^ 0x5C) for x in range(256))$/;"	v
+_type_check	/usr/local/lib/python3.9/typing.py	/^def _type_check(arg, msg, is_argument=True, module=None, *, allow_special_forms=False):$/;"	f
+_type_convert	/usr/local/lib/python3.9/typing.py	/^def _type_convert(arg, module=None, *, allow_special_forms=False):$/;"	f
+_type_repr	/usr/local/lib/python3.9/typing.py	/^def _type_repr(obj):$/;"	f
+_valid	/usr/local/lib/python3.9/csv.py	/^    _valid = False$/;"	v	class:Dialect
+_validate	/usr/local/lib/python3.9/csv.py	/^    def _validate(self):$/;"	m	class:Dialect
+_value_and_type_iter	/usr/local/lib/python3.9/typing.py	/^def _value_and_type_iter(parameters):$/;"	f
+_void	/usr/local/lib/python3.9/inspect.py	/^class _void:$/;"	c
+_walk	/usr/local/lib/python3.9/os.py	/^def _walk(top, topdown, onerror, followlinks):$/;"	f
+_wrap_close	/usr/local/lib/python3.9/os.py	/^class _wrap_close:$/;"	c
+adaptor	main.py	/^    adaptor = create_adaptor(message, sk, aux, hidden)$/;"	v
+add_dll_directory	/usr/local/lib/python3.9/os.py	/^    def add_dll_directory(path):$/;"	f
+algorithms_available	/usr/local/lib/python3.9/hashlib.py	/^    algorithms_available = algorithms_available.union($/;"	v
+algorithms_available	/usr/local/lib/python3.9/hashlib.py	/^algorithms_available = set(__always_supported)$/;"	v
+algorithms_guaranteed	/usr/local/lib/python3.9/hashlib.py	/^algorithms_guaranteed = set(__always_supported)$/;"	v
+annotation	/usr/local/lib/python3.9/inspect.py	/^    def annotation(self):$/;"	m	class:Parameter
+apply_defaults	/usr/local/lib/python3.9/inspect.py	/^    def apply_defaults(self):$/;"	m	class:BoundArguments
+args	/usr/local/lib/python3.9/inspect.py	/^    def args(self):$/;"	m	class:BoundArguments
+aux	main.py	/^    aux = os.urandom(32)$/;"	v
+aux	schnorr_lib.py	/^    aux = os.urandom(32)$/;"	v
+bind	/usr/local/lib/python3.9/inspect.py	/^    def bind(self, \/, *args, **kwargs):$/;"	m	class:Signature
+bind_partial	/usr/local/lib/python3.9/inspect.py	/^    def bind_partial(self, \/, *args, **kwargs):$/;"	m	class:Signature
+buffer	/usr/local/lib/python3.9/typing.py	/^    def buffer(self) -> BinaryIO:$/;"	m	class:TextIO	typeref:typename:BinaryIO
+bytes_from_int	schnorr_lib.py	/^def bytes_from_int(x: int) -> bytes:$/;"	f	typeref:typename:bytes
+bytes_from_point	schnorr_lib.py	/^def bytes_from_point(P: Point) -> bytes:$/;"	f	typeref:typename:bytes
+cast	/usr/local/lib/python3.9/typing.py	/^def cast(typ, val):$/;"	f
+check_str	/usr/local/lib/python3.9/os.py	/^        def check_str(value):$/;"	f	function:_createenviron	file:
+classify_class_attrs	/usr/local/lib/python3.9/inspect.py	/^def classify_class_attrs(cls):$/;"	f
+cleandoc	/usr/local/lib/python3.9/inspect.py	/^def cleandoc(doc):$/;"	f
+close	/usr/local/lib/python3.9/os.py	/^        def close(self):$/;"	m	class:_AddedDllDirectory
+close	/usr/local/lib/python3.9/os.py	/^    def close(self):$/;"	m	class:_wrap_close
+close	/usr/local/lib/python3.9/typing.py	/^    def close(self) -> None:$/;"	m	class:IO	typeref:typename:None
+closed	/usr/local/lib/python3.9/typing.py	/^    def closed(self) -> bool:$/;"	m	class:IO	typeref:typename:bool
+complex	/usr/local/lib/python3.9/csv.py	/^    complex = float$/;"	v
+convert	/usr/local/lib/python3.9/inspect.py	/^    def convert(name, locals=locals,$/;"	f	function:formatargvalues	file:
+copy	/usr/local/lib/python3.9/os.py	/^    def copy(self):$/;"	m	class:_Environ
+copy_with	/usr/local/lib/python3.9/typing.py	/^    def copy_with(self, params):$/;"	m	class:_AnnotatedAlias
+copy_with	/usr/local/lib/python3.9/typing.py	/^    def copy_with(self, params):$/;"	m	class:_CallableType
+copy_with	/usr/local/lib/python3.9/typing.py	/^    def copy_with(self, params):$/;"	m	class:_GenericAlias
+copy_with	/usr/local/lib/python3.9/typing.py	/^    def copy_with(self, params):$/;"	m	class:_SpecialGenericAlias
+copy_with	/usr/local/lib/python3.9/typing.py	/^    def copy_with(self, params):$/;"	m	class:_UnionGenericAlias
+create_adaptor	main.py	/^def create_adaptor(msg: bytes, seckey: bytes, aux_rand: bytes, hidden: bytes) -> Optional[Adapto/;"	f	typeref:typename:Optional[Adaptor]
+currentframe	/usr/local/lib/python3.9/inspect.py	/^def currentframe():$/;"	f
+debug_print_vars	schnorr_lib.py	/^def debug_print_vars() -> None:$/;"	f	typeref:typename:None
+decode	/usr/local/lib/python3.9/os.py	/^        def decode(value):$/;"	f	function:_createenviron	file:
+decorator	/usr/local/lib/python3.9/typing.py	/^    def decorator(func):$/;"	f	function:_tp_cache	file:
+default	/usr/local/lib/python3.9/inspect.py	/^    def default(self):$/;"	m	class:Parameter
+delimiter	/usr/local/lib/python3.9/csv.py	/^    delimiter = ','$/;"	v	class:excel
+delimiter	/usr/local/lib/python3.9/csv.py	/^    delimiter = ','$/;"	v	class:unix_dialect
+delimiter	/usr/local/lib/python3.9/csv.py	/^    delimiter = '\\t'$/;"	v	class:excel_tab
+delimiter	/usr/local/lib/python3.9/csv.py	/^    delimiter = None$/;"	v	class:Dialect
+description	/usr/local/lib/python3.9/inspect.py	/^    def description(self):$/;"	m	class:_ParameterKind
+dialect	/usr/local/lib/python3.9/csv.py	/^        class dialect(Dialect):$/;"	c	member:Sniffer.sniff	file:
+doublequote	/usr/local/lib/python3.9/csv.py	/^    doublequote = None$/;"	v	class:Dialect
+doublequote	/usr/local/lib/python3.9/csv.py	/^    doublequote = True$/;"	v	class:excel
+doublequote	/usr/local/lib/python3.9/csv.py	/^    doublequote = True$/;"	v	class:unix_dialect
+empty	/usr/local/lib/python3.9/inspect.py	/^    empty = _empty$/;"	v	class:Parameter
+empty	/usr/local/lib/python3.9/inspect.py	/^    empty = _empty$/;"	v	class:Signature
+encode	/usr/local/lib/python3.9/os.py	/^        def encode(value):$/;"	f	function:_createenviron	file:
+encodekey	/usr/local/lib/python3.9/os.py	/^        def encodekey(key):$/;"	f	function:_createenviron	file:
+encoding	/usr/local/lib/python3.9/typing.py	/^    def encoding(self) -> str:$/;"	m	class:TextIO	typeref:typename:str
+environ	/usr/local/lib/python3.9/os.py	/^environ = _createenviron()$/;"	v
+environb	/usr/local/lib/python3.9/os.py	/^    environb = _Environ(environ._data,$/;"	v
+errors	/usr/local/lib/python3.9/typing.py	/^    def errors(self) -> Optional[str]:$/;"	m	class:TextIO	typeref:typename:Optional[str]
+escapechar	/usr/local/lib/python3.9/csv.py	/^    escapechar = None$/;"	v	class:Dialect
+excel	/usr/local/lib/python3.9/csv.py	/^class excel(Dialect):$/;"	c
+excel_tab	/usr/local/lib/python3.9/csv.py	/^class excel_tab(excel):$/;"	c
+execl	/usr/local/lib/python3.9/os.py	/^def execl(file, *args):$/;"	f
+execle	/usr/local/lib/python3.9/os.py	/^def execle(file, *args):$/;"	f
+execlp	/usr/local/lib/python3.9/os.py	/^def execlp(file, *args):$/;"	f
+execlpe	/usr/local/lib/python3.9/os.py	/^def execlpe(file, *args):$/;"	f
+execvp	/usr/local/lib/python3.9/os.py	/^def execvp(file, args):$/;"	f
+execvpe	/usr/local/lib/python3.9/os.py	/^def execvpe(file, args, env):$/;"	f
+fdopen	/usr/local/lib/python3.9/os.py	/^def fdopen(fd, *args, **kwargs):$/;"	f
+fieldnames	/usr/local/lib/python3.9/csv.py	/^    def fieldnames(self):$/;"	m	class:DictReader
+fieldnames	/usr/local/lib/python3.9/csv.py	/^    def fieldnames(self, value):$/;"	m	class:DictReader
+fileno	/usr/local/lib/python3.9/typing.py	/^    def fileno(self) -> int:$/;"	m	class:IO	typeref:typename:int
+final	/usr/local/lib/python3.9/typing.py	/^def final(f):$/;"	f
+findsource	/usr/local/lib/python3.9/inspect.py	/^def findsource(object):$/;"	f
+flag	main.py	/^    flag = verify_adaptor(adaptor,message, pk, hidden)$/;"	v
+flush	/usr/local/lib/python3.9/typing.py	/^    def flush(self) -> None:$/;"	m	class:IO	typeref:typename:None
+formatannotation	/usr/local/lib/python3.9/inspect.py	/^def formatannotation(annotation, base_module=None):$/;"	f
+formatannotationrelativeto	/usr/local/lib/python3.9/inspect.py	/^def formatannotationrelativeto(object):$/;"	f
+formatargandannotation	/usr/local/lib/python3.9/inspect.py	/^    def formatargandannotation(arg):$/;"	f	function:formatargspec	file:
+formatargspec	/usr/local/lib/python3.9/inspect.py	/^def formatargspec(args, varargs=None, varkw=None, defaults=None,$/;"	f
+formatargvalues	/usr/local/lib/python3.9/inspect.py	/^def formatargvalues(args, varargs, varkw, locals,$/;"	f
+from_builtin	/usr/local/lib/python3.9/inspect.py	/^    def from_builtin(cls, func):$/;"	m	class:Signature
+from_callable	/usr/local/lib/python3.9/inspect.py	/^    def from_callable(cls, obj, *, follow_wrapped=True):$/;"	m	class:Signature
+from_function	/usr/local/lib/python3.9/inspect.py	/^    def from_function(cls, func):$/;"	m	class:Signature
+fsdecode	/usr/local/lib/python3.9/os.py	/^    def fsdecode(filename):$/;"	f	function:_fscodec	file:
+fsdecode	/usr/local/lib/python3.9/os.py	/^fsencode, fsdecode = _fscodec()$/;"	v
+fsencode	/usr/local/lib/python3.9/os.py	/^    def fsencode(filename):$/;"	f	function:_fscodec	file:
+fsencode	/usr/local/lib/python3.9/os.py	/^fsencode, fsdecode = _fscodec()$/;"	v
+fspath	/usr/local/lib/python3.9/os.py	/^    fspath = _fspath$/;"	v
+fwalk	/usr/local/lib/python3.9/os.py	/^    def fwalk(top=".", topdown=True, onerror=None, *, follow_symlinks=False, dir_fd=None):$/;"	f
+get_args	/usr/local/lib/python3.9/typing.py	/^def get_args(tp):$/;"	f
+get_exec_path	/usr/local/lib/python3.9/os.py	/^def get_exec_path(env=None):$/;"	f
+get_origin	/usr/local/lib/python3.9/typing.py	/^def get_origin(tp):$/;"	f
+get_type_hints	/usr/local/lib/python3.9/typing.py	/^def get_type_hints(obj, globalns=None, localns=None, include_extras=False):$/;"	f
+getabsfile	/usr/local/lib/python3.9/inspect.py	/^def getabsfile(object, _filename=None):$/;"	f
+getargs	/usr/local/lib/python3.9/inspect.py	/^def getargs(co):$/;"	f
+getargspec	/usr/local/lib/python3.9/inspect.py	/^def getargspec(func):$/;"	f
+getargvalues	/usr/local/lib/python3.9/inspect.py	/^def getargvalues(frame):$/;"	f
+getattr_static	/usr/local/lib/python3.9/inspect.py	/^def getattr_static(obj, attr, default=_sentinel):$/;"	f
+getblock	/usr/local/lib/python3.9/inspect.py	/^def getblock(lines):$/;"	f
+getcallargs	/usr/local/lib/python3.9/inspect.py	/^def getcallargs(func, \/, *positional, **named):$/;"	f
+getclasstree	/usr/local/lib/python3.9/inspect.py	/^def getclasstree(classes, unique=False):$/;"	f
+getclosurevars	/usr/local/lib/python3.9/inspect.py	/^def getclosurevars(func):$/;"	f
+getcomments	/usr/local/lib/python3.9/inspect.py	/^def getcomments(object):$/;"	f
+getcoroutinelocals	/usr/local/lib/python3.9/inspect.py	/^def getcoroutinelocals(coroutine):$/;"	f
+getcoroutinestate	/usr/local/lib/python3.9/inspect.py	/^def getcoroutinestate(coroutine):$/;"	f
+getdoc	/usr/local/lib/python3.9/inspect.py	/^def getdoc(object):$/;"	f
+getenv	/usr/local/lib/python3.9/os.py	/^def getenv(key, default=None):$/;"	f
+getenvb	/usr/local/lib/python3.9/os.py	/^    def getenvb(key, default=None):$/;"	f
+getfile	/usr/local/lib/python3.9/inspect.py	/^def getfile(object):$/;"	f
+getframeinfo	/usr/local/lib/python3.9/inspect.py	/^def getframeinfo(frame, context=1):$/;"	f
+getfullargspec	/usr/local/lib/python3.9/inspect.py	/^def getfullargspec(func):$/;"	f
+getgeneratorlocals	/usr/local/lib/python3.9/inspect.py	/^def getgeneratorlocals(generator):$/;"	f
+getgeneratorstate	/usr/local/lib/python3.9/inspect.py	/^def getgeneratorstate(generator):$/;"	f
+getinnerframes	/usr/local/lib/python3.9/inspect.py	/^def getinnerframes(tb, context=1):$/;"	f
+getlineno	/usr/local/lib/python3.9/inspect.py	/^def getlineno(frame):$/;"	f
+getmembers	/usr/local/lib/python3.9/inspect.py	/^def getmembers(object, predicate=None):$/;"	f
+getmodule	/usr/local/lib/python3.9/inspect.py	/^def getmodule(object, _filename=None):$/;"	f
+getmodulename	/usr/local/lib/python3.9/inspect.py	/^def getmodulename(path):$/;"	f
+getmro	/usr/local/lib/python3.9/inspect.py	/^def getmro(cls):$/;"	f
+getouterframes	/usr/local/lib/python3.9/inspect.py	/^def getouterframes(frame, context=1):$/;"	f
+getsource	/usr/local/lib/python3.9/inspect.py	/^def getsource(object):$/;"	f
+getsourcefile	/usr/local/lib/python3.9/inspect.py	/^def getsourcefile(object):$/;"	f
+getsourcelines	/usr/local/lib/python3.9/inspect.py	/^def getsourcelines(object):$/;"	f
+has_even_y	schnorr_lib.py	/^def has_even_y(P: Point) -> bool:$/;"	f	typeref:typename:bool
+has_header	/usr/local/lib/python3.9/csv.py	/^    def has_header(self, sample):$/;"	m	class:Sniffer
+hash_sha256	schnorr_lib.py	/^def hash_sha256(b: bytes) -> bytes:$/;"	f	typeref:typename:bytes
+hidden	main.py	/^    hidden = os.urandom(32)$/;"	v
+indentsize	/usr/local/lib/python3.9/inspect.py	/^def indentsize(line):$/;"	f
+inner	/usr/local/lib/python3.9/typing.py	/^        def inner(*args, **kwds):$/;"	f	function:_tp_cache.decorator	file:
+int_from_bytes	schnorr_lib.py	/^def int_from_bytes(b: bytes) -> int:$/;"	f	typeref:typename:int
+io	/usr/local/lib/python3.9/typing.py	/^class io:$/;"	c
+is_infinite	schnorr_lib.py	/^def is_infinite(P: Optional[Point]) -> bool:$/;"	f	typeref:typename:bool
+isabstract	/usr/local/lib/python3.9/inspect.py	/^def isabstract(object):$/;"	f
+isasyncgen	/usr/local/lib/python3.9/inspect.py	/^def isasyncgen(object):$/;"	f
+isasyncgenfunction	/usr/local/lib/python3.9/inspect.py	/^def isasyncgenfunction(obj):$/;"	f
+isatty	/usr/local/lib/python3.9/typing.py	/^    def isatty(self) -> bool:$/;"	m	class:IO	typeref:typename:bool
+isawaitable	/usr/local/lib/python3.9/inspect.py	/^def isawaitable(object):$/;"	f
+isbuiltin	/usr/local/lib/python3.9/inspect.py	/^def isbuiltin(object):$/;"	f
+isclass	/usr/local/lib/python3.9/inspect.py	/^def isclass(object):$/;"	f
+iscode	/usr/local/lib/python3.9/inspect.py	/^def iscode(object):$/;"	f
+iscoroutine	/usr/local/lib/python3.9/inspect.py	/^def iscoroutine(object):$/;"	f
+iscoroutinefunction	/usr/local/lib/python3.9/inspect.py	/^def iscoroutinefunction(obj):$/;"	f
+isdatadescriptor	/usr/local/lib/python3.9/inspect.py	/^def isdatadescriptor(object):$/;"	f
+isframe	/usr/local/lib/python3.9/inspect.py	/^def isframe(object):$/;"	f
+isfunction	/usr/local/lib/python3.9/inspect.py	/^def isfunction(object):$/;"	f
+isgenerator	/usr/local/lib/python3.9/inspect.py	/^def isgenerator(object):$/;"	f
+isgeneratorfunction	/usr/local/lib/python3.9/inspect.py	/^def isgeneratorfunction(obj):$/;"	f
+isgetsetdescriptor	/usr/local/lib/python3.9/inspect.py	/^    def isgetsetdescriptor(object):$/;"	f
+ismemberdescriptor	/usr/local/lib/python3.9/inspect.py	/^    def ismemberdescriptor(object):$/;"	f
+ismethod	/usr/local/lib/python3.9/inspect.py	/^def ismethod(object):$/;"	f
+ismethoddescriptor	/usr/local/lib/python3.9/inspect.py	/^def ismethoddescriptor(object):$/;"	f
+ismodule	/usr/local/lib/python3.9/inspect.py	/^def ismodule(object):$/;"	f
+isroutine	/usr/local/lib/python3.9/inspect.py	/^def isroutine(object):$/;"	f
+istraceback	/usr/local/lib/python3.9/inspect.py	/^def istraceback(object):$/;"	f
+kind	/usr/local/lib/python3.9/inspect.py	/^    def kind(self):$/;"	m	class:Parameter
+kwargs	/usr/local/lib/python3.9/inspect.py	/^    def kwargs(self):$/;"	m	class:BoundArguments
+lift_x	schnorr_lib.py	/^def lift_x(x: int) -> Optional[Point]:$/;"	f	typeref:typename:Optional[Point]
+line_buffering	/usr/local/lib/python3.9/typing.py	/^    def line_buffering(self) -> bool:$/;"	m	class:TextIO	typeref:typename:bool
+linesep	/usr/local/lib/python3.9/os.py	/^    linesep = '\\n'$/;"	v
+linesep	/usr/local/lib/python3.9/os.py	/^    linesep = '\\r\\n'$/;"	v
+lineterminator	/usr/local/lib/python3.9/csv.py	/^            lineterminator = '\\r\\n'$/;"	v	class:Sniffer.sniff.dialect
+lineterminator	/usr/local/lib/python3.9/csv.py	/^    lineterminator = '\\n'$/;"	v	class:unix_dialect
+lineterminator	/usr/local/lib/python3.9/csv.py	/^    lineterminator = '\\r\\n'$/;"	v	class:excel
+lineterminator	/usr/local/lib/python3.9/csv.py	/^    lineterminator = None$/;"	v	class:Dialect
+makedirs	/usr/local/lib/python3.9/os.py	/^def makedirs(name, mode=0o777, exist_ok=False):$/;"	f
+message	main.py	/^    message = os.urandom(32)$/;"	v
+message	schnorr_lib.py	/^    message = os.urandom(32)$/;"	v
+mod_dict	/usr/local/lib/python3.9/inspect.py	/^mod_dict = globals()$/;"	v
+mode	/usr/local/lib/python3.9/typing.py	/^    def mode(self) -> str:$/;"	m	class:IO	typeref:typename:str
+modulesbyfile	/usr/local/lib/python3.9/inspect.py	/^modulesbyfile = {}$/;"	v
+n	schnorr_lib.py	/^n = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141$/;"	v
+name	/usr/local/lib/python3.9/inspect.py	/^    def name(self):$/;"	m	class:Parameter
+name	/usr/local/lib/python3.9/os.py	/^    name = 'nt'$/;"	v
+name	/usr/local/lib/python3.9/os.py	/^    name = 'posix'$/;"	v
+name	/usr/local/lib/python3.9/typing.py	/^    def name(self) -> str:$/;"	m	class:IO	typeref:typename:str
+new	/usr/local/lib/python3.9/hashlib.py	/^    new = __hash_new$/;"	v
+new	/usr/local/lib/python3.9/hashlib.py	/^    new = __py_new$/;"	v
+new_type	/usr/local/lib/python3.9/typing.py	/^    def new_type(x):$/;"	f	function:NewType	file:
+newlines	/usr/local/lib/python3.9/typing.py	/^    def newlines(self) -> Any:$/;"	m	class:TextIO	typeref:typename:Any
+no_type_check	/usr/local/lib/python3.9/typing.py	/^def no_type_check(arg):$/;"	f
+no_type_check_decorator	/usr/local/lib/python3.9/typing.py	/^def no_type_check_decorator(decorator):$/;"	f
+overload	/usr/local/lib/python3.9/typing.py	/^def overload(func):$/;"	f
+p	/usr/local/lib/python3.9/inspect.py	/^    def p(name_node, default_node, default=empty):$/;"	f	function:_signature_fromstr	file:
+p	schnorr_lib.py	/^p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F$/;"	v
+parameters	/usr/local/lib/python3.9/inspect.py	/^    def parameters(self):$/;"	m	class:Signature
+parse_name	/usr/local/lib/python3.9/inspect.py	/^    def parse_name(node):$/;"	f	function:_signature_fromstr	file:
+path	/usr/local/lib/python3.9/os.py	/^    import ntpath as path$/;"	I	nameref:module:ntpath
+path	/usr/local/lib/python3.9/os.py	/^    import posixpath as path$/;"	I	nameref:module:posixpath
+pbkdf2_hmac	/usr/local/lib/python3.9/hashlib.py	/^    def pbkdf2_hmac(hash_name, password, salt, iterations, dklen=None):$/;"	f
+pk	main.py	/^    pk = pubkey_gen(sk)$/;"	v
+pk	schnorr_lib.py	/^    pk = pubkey_gen(sk)$/;"	v
+point_add	schnorr_lib.py	/^def point_add(P1: Optional[Point], P2: Optional[Point]) -> Optional[Point]:$/;"	f	typeref:typename:Optional[Point]
+point_equal	main.py	/^def point_equal(A: Optional[Point], B: Optional[Point]) -> bool:$/;"	f	typeref:typename:bool
+point_mul	schnorr_lib.py	/^def point_mul(P: Optional[Point], n: int) -> Optional[Point]:$/;"	f	typeref:typename:Optional[Point]
+popen	/usr/local/lib/python3.9/os.py	/^def popen(cmd, mode="r", buffering=-1):$/;"	f
+pretty	schnorr_lib.py	/^def pretty(v: Any) -> Any:$/;"	f	typeref:typename:Any
+prf	/usr/local/lib/python3.9/hashlib.py	/^        def prf(msg, inner=inner, outer=outer):$/;"	f	function:pbkdf2_hmac	file:
+pubkey_gen	schnorr_lib.py	/^def pubkey_gen(seckey: bytes) -> bytes:$/;"	f	typeref:typename:bytes
+quotechar	/usr/local/lib/python3.9/csv.py	/^    quotechar = '"'$/;"	v	class:excel
+quotechar	/usr/local/lib/python3.9/csv.py	/^    quotechar = '"'$/;"	v	class:unix_dialect
+quotechar	/usr/local/lib/python3.9/csv.py	/^    quotechar = None$/;"	v	class:Dialect
+quoting	/usr/local/lib/python3.9/csv.py	/^            quoting = QUOTE_MINIMAL$/;"	v	class:Sniffer.sniff.dialect
+quoting	/usr/local/lib/python3.9/csv.py	/^    quoting = None$/;"	v	class:Dialect
+quoting	/usr/local/lib/python3.9/csv.py	/^    quoting = QUOTE_ALL$/;"	v	class:unix_dialect
+quoting	/usr/local/lib/python3.9/csv.py	/^    quoting = QUOTE_MINIMAL$/;"	v	class:excel
+re	/usr/local/lib/python3.9/typing.py	/^class re:$/;"	c
+read	/usr/local/lib/python3.9/typing.py	/^    def read(self, n: int = -1) -> AnyStr:$/;"	m	class:IO	typeref:typename:AnyStr
+readable	/usr/local/lib/python3.9/typing.py	/^    def readable(self) -> bool:$/;"	m	class:IO	typeref:typename:bool
+readline	/usr/local/lib/python3.9/typing.py	/^    def readline(self, limit: int = -1) -> AnyStr:$/;"	m	class:IO	typeref:typename:AnyStr
+readlines	/usr/local/lib/python3.9/typing.py	/^    def readlines(self, hint: int = -1) -> List[AnyStr]:$/;"	m	class:IO	typeref:typename:List[AnyStr]
+removedirs	/usr/local/lib/python3.9/os.py	/^def removedirs(name):$/;"	f
+renames	/usr/local/lib/python3.9/os.py	/^def renames(old, new):$/;"	f
+replace	/usr/local/lib/python3.9/inspect.py	/^    def replace(self, *, name=_void, kind=_void,$/;"	m	class:Parameter
+replace	/usr/local/lib/python3.9/inspect.py	/^    def replace(self, *, parameters=_void, return_annotation=_void):$/;"	m	class:Signature
+return_annotation	/usr/local/lib/python3.9/inspect.py	/^    def return_annotation(self):$/;"	m	class:Signature
+runtime_checkable	/usr/local/lib/python3.9/typing.py	/^def runtime_checkable(cls):$/;"	f
+schnorr_sign	schnorr_lib.py	/^def schnorr_sign(msg: bytes, seckey: bytes, aux_rand: bytes) -> bytes:$/;"	f	typeref:typename:bytes
+schnorr_verify	schnorr_lib.py	/^def schnorr_verify(msg: bytes, pubkey: bytes, sig: bytes) -> bool:$/;"	f	typeref:typename:bool
+seek	/usr/local/lib/python3.9/typing.py	/^    def seek(self, offset: int, whence: int = 0) -> int:$/;"	m	class:IO	typeref:typename:int
+seekable	/usr/local/lib/python3.9/typing.py	/^    def seekable(self) -> bool:$/;"	m	class:IO	typeref:typename:bool
+setdefault	/usr/local/lib/python3.9/os.py	/^    def setdefault(self, key, value):$/;"	m	class:_Environ
+sig	schnorr_lib.py	/^    sig = schnorr_sign(message,sk,aux)$/;"	v
+signature	/usr/local/lib/python3.9/inspect.py	/^    def signature(self):$/;"	m	class:BoundArguments
+signature	/usr/local/lib/python3.9/inspect.py	/^def signature(obj, *, follow_wrapped=True):$/;"	f
+sk	main.py	/^    sk = os.urandom(32)$/;"	v
+sk	schnorr_lib.py	/^    sk = os.urandom(32)$/;"	v
+skipinitialspace	/usr/local/lib/python3.9/csv.py	/^    skipinitialspace = False$/;"	v	class:excel
+skipinitialspace	/usr/local/lib/python3.9/csv.py	/^    skipinitialspace = False$/;"	v	class:unix_dialect
+skipinitialspace	/usr/local/lib/python3.9/csv.py	/^    skipinitialspace = None$/;"	v	class:Dialect
+sniff	/usr/local/lib/python3.9/csv.py	/^    def sniff(self, sample, delimiters=None):$/;"	m	class:Sniffer
+spawnl	/usr/local/lib/python3.9/os.py	/^    def spawnl(mode, file, *args):$/;"	f
+spawnle	/usr/local/lib/python3.9/os.py	/^    def spawnle(mode, file, *args):$/;"	f
+spawnlp	/usr/local/lib/python3.9/os.py	/^    def spawnlp(mode, file, *args):$/;"	f
+spawnlpe	/usr/local/lib/python3.9/os.py	/^    def spawnlpe(mode, file, *args):$/;"	f
+spawnv	/usr/local/lib/python3.9/os.py	/^    def spawnv(mode, file, args):$/;"	f
+spawnve	/usr/local/lib/python3.9/os.py	/^    def spawnve(mode, file, args, env):$/;"	f
+spawnvp	/usr/local/lib/python3.9/os.py	/^    def spawnvp(mode, file, args):$/;"	f
+spawnvpe	/usr/local/lib/python3.9/os.py	/^    def spawnvpe(mode, file, args, env):$/;"	f
+st	/usr/local/lib/python3.9/os.py	/^import stat as st$/;"	I	nameref:module:stat
+stack	/usr/local/lib/python3.9/inspect.py	/^def stack(context=1):$/;"	f
+stdlib_re	/usr/local/lib/python3.9/typing.py	/^import re as stdlib_re  # Avoid confusion with the re we export.$/;"	I	nameref:module:re
+supports_bytes_environ	/usr/local/lib/python3.9/os.py	/^supports_bytes_environ = (name != 'nt')$/;"	v
+supports_dir_fd	/usr/local/lib/python3.9/os.py	/^    supports_dir_fd = _set$/;"	v
+supports_effective_ids	/usr/local/lib/python3.9/os.py	/^    supports_effective_ids = _set$/;"	v
+supports_fd	/usr/local/lib/python3.9/os.py	/^    supports_fd = _set$/;"	v
+supports_follow_symlinks	/usr/local/lib/python3.9/os.py	/^    supports_follow_symlinks = _set$/;"	v
+tagged_hash	schnorr_lib.py	/^def tagged_hash(tag: str, msg: bytes) -> bytes:$/;"	f	typeref:typename:bytes
+tell	/usr/local/lib/python3.9/typing.py	/^    def tell(self) -> int:$/;"	m	class:IO	typeref:typename:int
+test_vectors	schnorr_lib.py	/^def test_vectors() -> bool:$/;"	f	typeref:typename:bool
+tokeneater	/usr/local/lib/python3.9/inspect.py	/^    def tokeneater(self, type, token, srowcol, erowcol, line):$/;"	m	class:BlockFinder
+trace	/usr/local/lib/python3.9/inspect.py	/^def trace(context=1):$/;"	f
+truncate	/usr/local/lib/python3.9/typing.py	/^    def truncate(self, size: int = None) -> int:$/;"	m	class:IO	typeref:typename:int
+unix_dialect	/usr/local/lib/python3.9/csv.py	/^class unix_dialect(Dialect):$/;"	c
+unwrap	/usr/local/lib/python3.9/inspect.py	/^def unwrap(func, *, stop=None):$/;"	f
+ver	schnorr_lib.py	/^    ver = schnorr_verify(message,pk,sig)$/;"	v
+verify_adaptor	main.py	/^def verify_adaptor(A: Optional[Adaptor], msg:bytes, pk:bytes,  hidden: bytes) -> bool:$/;"	f	typeref:typename:bool
+visit_AsyncFunctionDef	/usr/local/lib/python3.9/inspect.py	/^    visit_AsyncFunctionDef = visit_FunctionDef$/;"	v	class:_ClassFinder
+visit_Attribute	/usr/local/lib/python3.9/inspect.py	/^        def visit_Attribute(self, node):$/;"	m	class:_signature_fromstr.RewriteSymbolics
+visit_ClassDef	/usr/local/lib/python3.9/inspect.py	/^    def visit_ClassDef(self, node):$/;"	m	class:_ClassFinder
+visit_FunctionDef	/usr/local/lib/python3.9/inspect.py	/^    def visit_FunctionDef(self, node):$/;"	m	class:_ClassFinder
+visit_Name	/usr/local/lib/python3.9/inspect.py	/^        def visit_Name(self, node):$/;"	m	class:_signature_fromstr.RewriteSymbolics
+walk	/usr/local/lib/python3.9/os.py	/^def walk(top, topdown=True, onerror=None, followlinks=False):$/;"	f
+walktree	/usr/local/lib/python3.9/inspect.py	/^def walktree(classes, children, parent):$/;"	f
+wrap_value	/usr/local/lib/python3.9/inspect.py	/^    def wrap_value(s):$/;"	f	function:_signature_fromstr	file:
+wrapped_decorator	/usr/local/lib/python3.9/typing.py	/^    def wrapped_decorator(*args, **kwds):$/;"	f	function:no_type_check_decorator	file:
+writable	/usr/local/lib/python3.9/typing.py	/^    def writable(self) -> bool:$/;"	m	class:IO	typeref:typename:bool
+write	/usr/local/lib/python3.9/typing.py	/^    def write(self, s: AnyStr) -> int:$/;"	m	class:IO	typeref:typename:int
+write	/usr/local/lib/python3.9/typing.py	/^    def write(self, s: Union[bytes, bytearray]) -> int:$/;"	m	class:BinaryIO	typeref:typename:int
+writeheader	/usr/local/lib/python3.9/csv.py	/^    def writeheader(self):$/;"	m	class:DictWriter
+writelines	/usr/local/lib/python3.9/typing.py	/^    def writelines(self, lines: List[AnyStr]) -> None:$/;"	m	class:IO	typeref:typename:None
+writerow	/usr/local/lib/python3.9/csv.py	/^    def writerow(self, rowdict):$/;"	m	class:DictWriter
+writerows	/usr/local/lib/python3.9/csv.py	/^    def writerows(self, rowdicts):$/;"	m	class:DictWriter
+x	schnorr_lib.py	/^def x(P: Point) -> int:$/;"	f	typeref:typename:int
+xor_bytes	schnorr_lib.py	/^def xor_bytes(b0: bytes, b1: bytes) -> bytes:$/;"	f	typeref:typename:bytes
+y	schnorr_lib.py	/^def y(P: Point) -> int:$/;"	f	typeref:typename:int
